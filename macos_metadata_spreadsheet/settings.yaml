@@ -1,0 +1,7 @@
+folder: /Users/lianawobben/Pictures/test_meta_data/
+prefix: kMDItem #use if metadata have a default prefix, otherwise leave empty
+required_data:
+  - FNumber
+  - ExposureMode
+  - FocalLength
+  - LensModel

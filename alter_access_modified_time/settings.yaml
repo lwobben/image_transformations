@@ -1,0 +1,6 @@
+folder: /Users/lianawobben/Pictures/test_meta_data/
+alter_access: true
+alter_modified: true
+date_constant: '20040829_154607' # date to change to, only used when from_file_name is false
+from_file_name: true # if true, new date is taken from file name and not from date_constant
+datetime_format: '%Y%m%d_%H%M%S'
