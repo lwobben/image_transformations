@@ -1,0 +1,4 @@
+folder_input: data/input/
+path_output: data/output/timelapse.mp4
+speed: 0.5
+size: [1024, 768]
