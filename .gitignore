@@ -1,3 +1,4 @@
 venv/
 output.csv
 data/
+.DS_Store
