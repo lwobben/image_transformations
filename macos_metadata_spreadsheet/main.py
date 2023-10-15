@@ -27,7 +27,10 @@ with open("output.csv", "w") as output_file:
 
         out_list = cmd_out.decode("utf-8").split("\n")
         out_dict = {
-            i.split("=")[0].strip(' "').lstrip(config["prefix"]): i.split("=")[-1].strip(' "')
+            i.split("=")[0]
+            .strip(' "')
+            .lstrip(config["prefix"]): i.split("=")[-1]
+            .strip(' "')
             for i in out_list
         }
         metadata_dict = {k: out_dict.get(k) for k in metadata_names}
