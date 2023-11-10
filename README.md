@@ -18,4 +18,4 @@ Write important photo (capturing) settings into a spreadsheet. Specifically usef
 
 ## `timelapse`
 
-Create an mp4 video out of a series of still pictures of the same frame.
+Create an mp4 video out of a series of still pictures of the same frame. The solution orders the images by name, assuming that the obtained sequence corresponds to a chronological order.

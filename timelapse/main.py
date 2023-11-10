@@ -10,6 +10,7 @@ writer = cv2.VideoWriter(config["path_output"], fourcc, config["speed"], config[
 
 input_folder = config["folder_input"]
 images = [img for img in os.listdir(input_folder) if img.endswith(f".{config['image_format']}")]
+images.sort()
 for image in images:
     print(image)
     writer.write(cv2.imread(os.path.join(input_folder, image)))
