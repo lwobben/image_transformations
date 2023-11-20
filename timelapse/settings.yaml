@@ -1,5 +1,10 @@
-folder_input: data/input/
 image_format: jpeg
-path_output: data/output/timelapse.mp4
-speed: 0.5
-size: [4032, 3024]
+speed: 1 # frames per second
+
+stack_method: vconcat
+  # specify if stacked frames are required, should be one of:
+  # `vconcat` (vertically stacked), `hconcat` (horizontally stacked), or `null`
+
+folder_input: data/input/
+folder_input2: data/input2/ # specify if stack_method != null
+folder_output: data/output/timelapse.mp4
